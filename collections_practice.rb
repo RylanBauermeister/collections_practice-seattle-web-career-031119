@@ -36,5 +36,9 @@ end
 def sum_array(arr)
   arr.reduce {|total, num| total += num}
 end
+
+def add_s(arr)
+  arr.each_with_index.collect {|element, index|
+    index
   
   
