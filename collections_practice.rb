@@ -38,7 +38,8 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.each_with_indexeleme
+  arr.each_with_index.select {|element, index|
+    index != 2 ? 
   }
 end
   
