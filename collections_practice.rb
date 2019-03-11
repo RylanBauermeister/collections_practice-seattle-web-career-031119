@@ -30,7 +30,7 @@ end
 def find_a(arr)
   arr.select { |item|
     item.start_with?('a')
-  end
+  }
 end
   
   
